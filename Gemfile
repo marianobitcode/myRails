@@ -47,6 +47,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg'                    # PostgreSQL
-  gem 'rails_12factor'        # on Rails 5 it is not neccesary
+  gem 'pg'
+  gem 'rails_12factor'
 end
